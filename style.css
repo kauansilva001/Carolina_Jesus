@@ -61,16 +61,25 @@
 #index_subtitulo{
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
-    margin-top: 55px;
+    margin: 55px 10px 0px 10px;
+
     text-align: center;
 }
 
 #resumo{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     text-align: justify;
+    padding: 15px;
+    border: 5px #F2C8F3 solid;
+    border-radius: 20px;
 }
+
+#index_principal{
+    margin-top: 20px;
+}
+    
 
 hr{
     margin-bottom: 15px;
