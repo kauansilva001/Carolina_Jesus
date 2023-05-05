@@ -9,7 +9,6 @@
 #index_container {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    overflow: hidden;
 }
 
 #index_principal {
@@ -156,5 +155,4 @@ figcaption {
     align-items: center;
     justify-content: center;
     background-color: floralwhite;
-    
 }

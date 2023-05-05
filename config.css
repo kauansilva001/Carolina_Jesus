@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Paytone+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho*/
+
+header{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2C8F3;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: white; 
+}
+
+#botao {
+    color: white;
+    text-decoration: none;
+    background-color: #FFDE59;
+    padding: 14px 25px;
+    border-radius: 20px;
+    margin-left: 15px;
+
+}
+
+#botao:hover{
+    background-color: #ffea94;
+}
+
+/*Trabalhando com Grid e Flexbox*/
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
