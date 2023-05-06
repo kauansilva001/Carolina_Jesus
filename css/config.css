@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho*/
+
+header{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2C8F3;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: white; 
+}
+
+#botao {
+    color: white;
+    text-decoration: none;
+    background-color: #FFDE59;
+    padding: 14px 25px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+}
+
+#botao:hover{
+    background-color: #ffea94;
+}
+
+/*Trabalhando com Grid e Flexbox*/
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+}
+
+main {
+    grid-column: 2/3;
+}
+
+/* Estilizacão */
+
+body{
+    background-image: url(https://images6.alphacoders.com/348/348731.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 1200px;
+}
+
+#bloco{
+    margin-top: 35px;
+    padding: 10px 25px 0px 25px;
+    border-radius: 20px;
+    background-color: white;
+    height: 970px;
+}
+
+
+#animacao{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin: 5px 0px 10px 0px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #fea7ff; 
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    font-size: 17px;
+}
